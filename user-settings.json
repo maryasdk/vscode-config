@@ -1,0 +1,23 @@
+{
+    /***************** THEME *******************/
+    /***************** TERMINAL ****************/
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)", // When on Windows with Windows Subsystem for Lunix installed
+    /***************** SOURCE CONTROL **********/
+    "git.autofetch": "all",
+    /***************** FORMATTING *************/
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    /***************** LINTING ****************/
+    "eslint.validate": [
+        "javascript"
+    ],
+    /***************** PER LANG ***************/
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features" // json w comments not supported yet by prettier
+    },
+    /***************** ON SAVE ****************/
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+    },
+    /***************** MISC ********************/
+}
